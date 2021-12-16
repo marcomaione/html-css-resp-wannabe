@@ -94,19 +94,40 @@ img {
 }
 
 }
+@media screen and (max-width:420px) {
+  #step  {
+    background-color: white;
+  }
+}
+
 
 @media screen and (max-width:420px) {
 
-h3 {
-  width: 80%;
-  margin: auto;
-}
 .row {
   background-color:  rgb(245, 218, 178);
   margin: auto;
 }
 
+@media screen and (max-width:420px) {
+
+  .row h1 {
+    font-size: 50px;
+  }
+
 .container.grey {
   background-color: white;
 }
+
+}
+
+@media screen and (max-width:420px) {
+  .first hr {
+    background-color:  black;
+  }
+}
+
+@media screen and (max-width:420px) {
+  .second hr {
+    background-color:  black;
+  }
 }
