@@ -90,7 +90,23 @@ img {
 #steps .row>.right {
   float: none;
   margin: auto;
+  width: 80%;
 }
 
+}
 
+@media screen and (max-width:420px) {
+
+h3 {
+  width: 80%;
+  margin: auto;
+}
+.row {
+  background-color:  rgb(245, 218, 178);
+  margin: auto;
+}
+
+.container.grey {
+  background-color: white;
+}
 }
