@@ -86,7 +86,6 @@ img {
   #steps .row>.right {
     float: none;
     margin: auto;
-    width: 80%;
   }
 
   #steps .row {
@@ -113,4 +112,65 @@ img {
 
   /*inizio bonus*/
 
-  
+  @media screen and (max-width:768px) {
+      
+  #lezioni .row>.left,
+  #lezioni .row>.right {
+    margin: auto;
+    float: none;
+    margin-top: 10px;
+  }
+ 
+  #steps .row>.left,
+  #steps .row>.central,
+  #steps .row>.right {
+    margin: auto;
+    float: none;
+    margin-top: 5px;
+  }
+
+
+  .row {
+    width: 100%;
+    background-color:white
+  }
+
+  .left {
+    background-color: turquoise;
+    border-radius: 30px;
+  }
+
+  .right {
+    background-color: violet;
+    border-radius: 30px;
+  }
+
+  .central {
+    border-radius: 30px;
+  }
+
+  .first {
+    background-color: yellow;
+    border-radius: 30px;
+    padding: 2px;
+  }
+  hr {
+    display: none;
+  }
+
+  .second {
+    background-color:lightgreen;
+    border-radius: 30px;
+    padding: 2px;
+
+  }
+
+  .third {
+    background-color:lightsalmon;
+    border-radius: 30px;
+    padding: 2px;
+
+  }
+}
+
+
