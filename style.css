@@ -112,7 +112,7 @@ img {
 
   /*inizio bonus*/
 
-  @media screen and (max-width:768px) {
+  @media screen and (min-width:421px) and ( max-width:768px) {
       
   #lezioni .row>.left,
   #lezioni .row>.right {
@@ -152,7 +152,6 @@ img {
   .first {
     background-color: yellow;
     border-radius: 30px;
-    padding: 2px;
   }
   hr {
     display: none;
@@ -161,14 +160,12 @@ img {
   .second {
     background-color:lightgreen;
     border-radius: 30px;
-    padding: 2px;
 
   }
 
   .third {
     background-color:lightsalmon;
     border-radius: 30px;
-    padding: 2px;
 
   }
 }
